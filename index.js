@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 // - SEU PHONE_NUMBER_ID (ID do seu número do WhatsApp)
 // - SEU ACCESS_TOKEN (Token de acesso que o Meta forneceu)
 const PHONE_NUMBER_ID = "612860251919282"; // <<--- Troque aqui
-const ACCESS_TOKEN = "EAAKPcTox91YBOyzca15eiBqs5D6f2Y6tjbQZBhPWvMie5ifGzQRXnpCbXZB0vd2XDzWtHSmamavbnW37pob3ZBOInQ4iA9L6ucsJ6B3hjqTdnCvLLs5G2eSaSlJhFVkKXF4Et2V5rKZBATaMCDp99LiuzDD1ZAlSu4Nqyrd7AzAfCZAruG6OlBmC726MK6k0TjZBpBeZA6MFcHEKNuEJdmFIsP8oluKeg2ZCSEJkZD";       // <<--- Troque aqui
+const ACCESS_TOKEN = "EAAKPcTox91YBO9zNYSyCsGebEdrBZAQIaNhs9unKOHzNboCNcN04gmFGJetXGt8x0iw7blYxrGueueiF7PDtVasjvDm7NqvdN6drFScNsXnZC9LHr6thAeUVbZASG2dg5mA1BYsRA8L8nXWyW27lMKIylBvq9urD1tOjz0sQ9yi3VABZAkvhnCvLHHcEuPh6TZAG741KJI3VnhYR9LHLomq2eXPo2n00Pq70ZD";       // <<--- Troque aqui
 
 // Função para verificar horário de atendimento
 function dentroDoHorario() {
