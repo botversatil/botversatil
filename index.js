@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const VERIFY_TOKEN = "botversatil123"; // Token para verificação do Webhook
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Função para verificar se está dentro do horário de atendimento
 function dentroDoHorario() {
