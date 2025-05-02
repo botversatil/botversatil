@@ -6,7 +6,7 @@ const auth = new google.auth.GoogleAuth({
   scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
 });
 
-const sheetId = 'SEU_ID_DA_PLANILHA_AQUI';
+const sheetId = 'FuncionariosBot';
 
 async function verificarFuncionario(numero) {
   const client = await auth.getClient();
